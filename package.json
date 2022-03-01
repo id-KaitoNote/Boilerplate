@@ -8,7 +8,8 @@
     "dev": "npx gulp development",
     "build": "npx gulp build",
     "lint:css": "stylelint **/*.scss",
-    "fix:css": "stylelint --fix **/*.scss"
+    "fix:css": "stylelint --fix **/*.scss",
+    "lint:js": "eslint **/*.js"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -25,6 +26,7 @@
     "gulp": "^4.0.2",
     "gulp-dart-sass": "^1.0.2",
     "gulp-ejs": "^5.1.0",
+    "gulp-html-beautify": "^1.0.1",
     "gulp-imagemin": "^7.0.0",
     "gulp-newer": "^1.4.0",
     "gulp-plumber": "^1.2.1",

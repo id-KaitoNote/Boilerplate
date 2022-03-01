@@ -1,6 +1,6 @@
 'use strict'
 
-const { src, dest, watch, series, parallel } = require('gulp')
+const dest = require('gulp')
 
 const configPath = require('../../config-path')
 const webpackConfig = require('../../webpack.config.js')

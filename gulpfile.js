@@ -1,4 +1,4 @@
-const { src, dest, watch, series, parallel } = require('gulp')
+const { series, parallel } = require('gulp')
 
 const ejs = require('./gulp/tasks/compileEjs')
 const scss = require('./gulp/tasks/compileScss')

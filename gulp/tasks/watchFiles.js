@@ -1,6 +1,6 @@
 'use strict'
 
-const { src, dest, watch, series, parallel } = require('gulp')
+const watch = require('gulp')
 
 const configPath = require('../../config-path')
 const reload = require('./reload')
@@ -9,7 +9,7 @@ const scss = require('./compileScss')
 const js = require('./compileJs')
 const img = require('./img')
 
-const watchFiles = (done) => {
+const watchFiles = () => {
   watch(`${configPath.dirs.ejs.src}`, ejs).on('change', reload)
   watch(`${configPath.dirs.scss.src}`, scss).on('change', reload)
   watch(`${configPath.dirs.js.src}`, js).on('change', reload)

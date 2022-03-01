@@ -1,6 +1,6 @@
 'use strict'
 
-const { src, dest, watch, series, parallel } = require('gulp')
+const { src, dest } = require('gulp')
 
 const configPath = require('../../config-path')
 

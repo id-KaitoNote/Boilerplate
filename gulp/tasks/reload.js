@@ -2,7 +2,7 @@
 
 const browserSync = require('browser-sync')
 
-const reload = (done) => {
+const reload = () => {
   browserSync.reload()
 }
 
