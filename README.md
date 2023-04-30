@@ -5,7 +5,7 @@
 
 yarn
 
-yarn run dev
+yarn run dev 
  
 ```
 
